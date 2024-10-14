@@ -1,0 +1,99 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .cta-section {
+    height: 800px;
+    background: url('https://picsum.photos/1920/1080') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+
+  .cta.contect h1 {
+    font-size: 48px; 
+    margin-bottom: 20px;
+  }
+  .cta-content button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 19.2px;
+    cursor: pointer;
+  }
+  
+  .popular-games {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .games-list {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+  }
+  
+  .game {
+    position: relative;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .game img {
+    width: 100%;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .game img:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  footer {
+    padding: 10px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  
+  
+  .off-canvas {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: top 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    color: white;
+  }
+  
+  .off-canvas form {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .off-canvas input {
+    margin: 10px 0;
+    padding: 10px;
+  }
+  
+  .off-canvas button {
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+  }
+  
